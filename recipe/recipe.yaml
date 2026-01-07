@@ -1,5 +1,5 @@
 context:
-  version: "0.0.12"
+  version: "0.0.13"
 
 package:
   name: datalad-cds
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/d/datalad-cds/datalad_cds-${{ version }}.tar.gz
-    sha256: a57cbfb91242232b48eb4a61282edfe1c9667c8616fbc5009166abac26419bad
+    sha256: f9b09a4b1824d97ae79c8759fdcf24c58438f94658b7c4d89c867cee17b8547b
 
 build:
   noarch: python
